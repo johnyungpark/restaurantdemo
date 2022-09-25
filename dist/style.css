@@ -1,9 +1,10 @@
 html {
+    height: 95vh;
     background-image: url("../restpic.avif");
 }
 
 body {
-    height: 90vh;
+    height: 1800px;
     background-color: beige;
     display: flex;
     flex-direction: column;
@@ -70,7 +71,7 @@ ul > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
 
 #content {
     width: 75%;
-    height: 60%;
+    height: 20%;
     display: flex;
     flex-direction: column;
     text-align: center;
