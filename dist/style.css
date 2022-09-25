@@ -1,16 +1,16 @@
 html {
     height: 95vh;
-    background-image: url("../restpic.avif");
+    background-image: url("./restpic.avif");
 }
 
 body {
-    height: 1800px;
+    height: 1700px;
     background-color: beige;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 5% 15% 5% 15%;
+    margin: 8% 15% 8% 15%;
     border-radius: 50px;
 }
 
