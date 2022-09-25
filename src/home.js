@@ -1,9 +1,11 @@
+import Pict from './enjoyfood.avif';
+
 function homePage() {
     let content = document.querySelector('#content');
     content.innerHTML = '';
     content.replaceChildren();
-    let pic1 = document.createElement('img');
-    pic1.src = "../enjoyfood.avif";
+    let pic1 = new Image();
+    pic1.src = Pict;
     pic1.classList.add("enjoyfood");
     content.appendChild(pic1);
     let box1 = document.createElement('div');
