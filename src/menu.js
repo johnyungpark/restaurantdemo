@@ -30,7 +30,7 @@ function menuPage() {
     div2.appendChild(pic2);
     let div3 = document.createElement('div');
     div3.classList.add('divz');
-    div3.innerHTML = "<b>Pork Tenderloin</b><br><em>The most tender pork obtained from the great USA marinated with a special sauce and topped with mashed sweet potato.</em><br><b>$60.00</b>"
+    div3.innerHTML = "<b>Pork Tenderloin</b><br><em>The most tender pork marinated with a special sauce and topped with mashed sweet potato.</em><br><b>$60.00</b>"
     grid.appendChild(div3);
     let pic3 = new Image();
     pic3.src = Pict3;
